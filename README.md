@@ -17,7 +17,7 @@ Apabila kalian ingin menggunakan project ini, ada beberapa hal yang harus disesu
 
 # Installation
 
-**Jangan dihubungkan dengan database utama Rumah Sakit**
+## Jangan dihubungkan dengan database utama Rumah Sakit selama proses development / testing
 
 * Buat database baru dengan nama `wsrs_bpjs` untuk testing sebelum kalian menghubungkannya dengan database utama rumah sakit
 * Clone project ini kemudian ketik `npm i` di cmd untuk menginstall semua dependency.
