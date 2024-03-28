@@ -28,14 +28,14 @@ Apabila kalian ingin menggunakan project ini, ada beberapa hal yang harus disesu
 
 | Method | URL                         | Description |
 | :----: |:---                         |:--                                                                 |
-| GET    | `http://localhost:8888`     | Main Page / Base Url                                               |
-| GET    | `_baseurl_/auth`            | Login untuk mendapatkan jwt token                                  |
-| POST   | `_baseurl_/antrean`         | Create antrian kunjungan baru pasien                               |
-| POST   | `_baseurl_/antrean/status`  | Untuk melihat status antrean kunjungan pasien                      |
-| POST   | `_baseurl_/antrean/sisa`    | Untuk melihat sisa antrean pasien                                  |
-| POST   | `_baseurl_/antrean/batal`   | Untuk membatalkan revesvasi kunjungan pasien selama belum check in |
-| POST   | `_baseurl_/antrean/checkin` | Untuk melakukan check in                                           |
-| POST   | `_baseurl_/operasi/rs`      | Untuk menampilkan list jadwal operasi di Rumah Sakit               |
-| POST   | `_baseurl_/operasi/peserta` | Untuk menampilkan jadwal operasi pasien Mobile JKN                 |
-| POST   | `_baseurl_/farmasi`         | Untuk mengambil antrian resep                                      |
-| POST   | `_baseurl_/farmasi/status`  | Untuk melihat status antrian resep pasien saat ini                 |
+| GET    | http://localhost:8888       | Main Page / Base Url                                               |
+| GET    | _baseurl_ /auth             | Login untuk mendapatkan jwt token                                  |
+| POST   | _baseurl_ /antrean          | Create antrian kunjungan baru pasien                               |
+| POST   | _baseurl_ /antrean/status   | Untuk melihat status antrean kunjungan pasien                      |
+| POST   | _baseurl_ /antrean/sisa     | Untuk melihat sisa antrean pasien                                  |
+| POST   | _baseurl_ /antrean/batal    | Untuk membatalkan revesvasi kunjungan pasien selama belum check in |
+| POST   | _baseurl_ /antrean/checkin  | Untuk melakukan check in                                           |
+| POST   | _baseurl_ /operasi/rs       | Untuk menampilkan list jadwal operasi di Rumah Sakit               |
+| POST   | _baseurl_ /operasi/peserta  | Untuk menampilkan jadwal operasi pasien Mobile JKN                 |
+| POST   | _baseurl_ /farmasi          | Untuk mengambil antrian resep                                      |
+| POST   | _baseurl_ /farmasi/status   | Untuk melihat status antrian resep pasien saat ini                 |
