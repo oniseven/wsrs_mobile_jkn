@@ -10,7 +10,7 @@ import checkinAntreanSchema from "../../validations/antrean/checkinSchema";
 
 import { ICheckInAntreanInputRequest } from "../../types/antrean/ICheckInAntreanInputRequest";
 
-const CheckInAntrean = async (req: Request, res: Response) => {
+const CheckInAntrean = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: ICheckInAntreanInputRequest = req.body;
 
   // validasi inputan user

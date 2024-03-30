@@ -9,7 +9,7 @@ import { CreatedException } from "../../exceptions/CreatedException";
 import { kodebookingSchema } from "../../validations/kodebookingSchema";
 import getStatusAntreanFarmasi from "../../services/farmasi/StatusAntreanService";
 
-const StatusAntreanFarmasi = async (req: Request, res: Response) => {
+const StatusAntreanFarmasi = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: {
     kodebooking: string
   } = req.body

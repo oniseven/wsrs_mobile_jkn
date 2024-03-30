@@ -4,7 +4,7 @@ import { ClientException } from "../../exceptions/ClientException";
 import operasiPesertaSchema from "../../validations/operasi/pesertaSchema";
 import getOperasiPeserta from "../../services/operasi/PesertaService";
 
-const OperasiPeserta = async (req: Request, res: Response) => {
+const OperasiPeserta = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: {
     nopeserta: string
   } = req.body;

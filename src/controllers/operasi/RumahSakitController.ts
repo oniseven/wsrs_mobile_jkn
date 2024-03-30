@@ -9,7 +9,7 @@ interface IOperasiRSRequest {
   tanggalakhir: string;
 }
 
-const OperasiRumahSakit = async (req: Request, res: Response) => {
+const OperasiRumahSakit = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: IOperasiRSRequest = req.body;
 
   // validasi inputan user

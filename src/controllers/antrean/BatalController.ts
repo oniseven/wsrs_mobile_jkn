@@ -3,13 +3,12 @@ moment.locale("id");
 import { Request, Response } from "express";
 
 import { ClientException } from "../../exceptions/ClientException";
-import { OnlineRegistration } from "../../models/OnlineRegistration";
 import { IBatalAntreanInputRequest } from "../../types/antrean/IBatalAntreanInputRequest";
 import { batalReservasi, getReservasi } from "../../services/antrean/BatalService";
 import batalAntreanSchema from "../../validations/antrean/batalSchema";
 import { CreatedException } from "../../exceptions/CreatedException";
 
-const BatalAntrean = async (req: Request, res: Response) => {
+const BatalAntrean = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: IBatalAntreanInputRequest = req.body;
 
   // validasi inputan user

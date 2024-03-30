@@ -11,7 +11,7 @@ import { getAntrean, getKunjungan, getReservation } from "../../services/antrean
 
 import { ISisaAntreanResponse } from "../../types/antrean/ISisaAntreanResponse";
 
-const SisaAntrean = async (req: Request, res: Response) => {
+const SisaAntrean = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: { kodebooking: string } = req.body;
 
   // validasi inputan user

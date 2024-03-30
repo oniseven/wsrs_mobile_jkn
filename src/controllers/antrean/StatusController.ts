@@ -12,7 +12,7 @@ import statusAntreanSchema from "../../validations/antrean/statusSchema";
 import { IStatusAntreanInputRequest } from "../../types/antrean/IStatusAntreanInputRequest";
 import { IStatusAntreanResponse } from "../../types/antrean/IStatusAntreanResponse";
 
-const StatusAntrean = async (req: Request, res: Response) => {
+const StatusAntrean = async (req: Request, res: Response): Promise<Express.Response> => {
   const body: IStatusAntreanInputRequest = req.body;
 
   // validasi input request user
