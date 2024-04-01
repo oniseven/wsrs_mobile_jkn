@@ -6,13 +6,13 @@ Dalam project ini sudah mencangkup semua fitur yg diperlukan dalam WSRS sesuai d
 
 Apabila kalian ingin menggunakan project ini, ada beberapa hal yang harus disesuaikan, seperti:
 
-1. Sesuaikan semua model yang ada pada folder `src\Models` dengan database simrs yang ada di masing-masing rumah sakit.
-2. Sesuaikan kebutuhan data yang ada pada folder `src\Controllers` dan `src\Service`, karena ke dua folder ini berkaitan erat dengan proses utama WSRS.
+1. Sesuaikan kebutuhan model yang ada pada folder `src\Models` dengan database SimRS yang ada di masing-masing rumah sakit. Applikasi ini menggunakan mysql2 dan Sequelize sebagai ORMnya.
+2. Sesuaikan process dan kebutuhan data yang ada pada folder `src\Controllers` dan `src\Service`, karena ke dua folder ini berkaitan satu sama lain.
 
 # Requirement
 
 * MYSQL (> 8.0) / MariaDB (> 10.3) sesuai dengan dokumentasi ![sequelize database compatibility](https://sequelize.org/releases/)
-* NodeJS (tested in v20.10.0)
+* NodeJS (tested in v20.10.0) and nodemon
 * TypeScript
 
 # Installation
